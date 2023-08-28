@@ -24,9 +24,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 )), __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: !0 }), mod);
 
-// css-bundle-update-plugin-ns:/Users/johnthornton/Desktop/Keltec/my-remix-app/node_modules/@remix-run/css-bundle/dist/index.js
+// css-bundle-update-plugin-ns:/Users/johnthornton/Desktop/keltec-performance/node_modules/@remix-run/css-bundle/dist/index.js
 var require_dist = __commonJS({
-  "css-bundle-update-plugin-ns:/Users/johnthornton/Desktop/Keltec/my-remix-app/node_modules/@remix-run/css-bundle/dist/index.js"(exports) {
+  "css-bundle-update-plugin-ns:/Users/johnthornton/Desktop/keltec-performance/node_modules/@remix-run/css-bundle/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: !0 });
     var cssBundleHref2;
@@ -157,7 +157,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-PV3KNBAH.css";
+var tailwind_default = "/build/_assets/tailwind-2MFKXYYF.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -805,111 +805,49 @@ function Hero() {
 }
 
 // app/components/StatsBar.jsx
-var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), platforms = ["Facebook", "Google", "Trust Pilot"];
 function Stats() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("section", { className: "w-full flex md:flex-row px-1 md:px-5 mb-2 py-5 justify-around ", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: " flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex items-center ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { className: " mr:0 md:mr-3 text-center font-poppins font-semibold xs:text-[12px] md:text-[30px] text-gradient xs:leading-[53.16px] leading-[43.16px] text-white", children: "Facebook" }, void 0, !1, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 8,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-        "img",
-        {
-          src: "/rating.png",
-          alt: "rating",
-          className: "w-[100px] md:w-[150px] ml-3 "
-        },
-        void 0,
-        !1,
-        {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("section", { className: "w-full flex flex-wrap px-1 md:px-5 mb-2 py-5 justify-around", children: platforms.map((platform) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+    "div",
+    {
+      className: "flex justify-center w-full xs:w-auto mb-4 xs:mb-0",
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex flex-col xs:flex-row items-center justify-center w-full", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { className: "text-center font-poppins font-semibold text-lg xs:text-[20px] md:text-[30px] text-gradient leading-[53.16px] md:leading-[43.16px] text-white mb-2 xs:mb-0 xs:mr-3", children: platform }, void 0, !1, {
           fileName: "app/components/StatsBar.jsx",
-          lineNumber: 11,
-          columnNumber: 11
-        },
-        this
-      )
-    ] }, void 0, !0, {
+          lineNumber: 12,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+          "img",
+          {
+            src: "/rating.png",
+            alt: "rating",
+            className: "w-[100px] xs:w-[125px] md:w-[150px]"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/StatsBar.jsx",
+            lineNumber: 15,
+            columnNumber: 13
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/StatsBar.jsx",
+        lineNumber: 11,
+        columnNumber: 11
+      }, this)
+    },
+    platform,
+    !1,
+    {
       fileName: "app/components/StatsBar.jsx",
       lineNumber: 7,
       columnNumber: 9
-    }, this) }, void 0, !1, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 6,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: " flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex  items-center ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { className: "md:mr-3 text-center font-poppins font-semibold xs:text-[12px] md:text-[30px] text-gradient xs:leading-[53.16px] leading-[43.16px] text-white", children: "Google" }, void 0, !1, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 21,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-        "img",
-        {
-          src: "/rating.png",
-          alt: "rating",
-          className: "w-[100px] md:w-[150px] ml-3 "
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/StatsBar.jsx",
-          lineNumber: 25,
-          columnNumber: 13
-        },
-        this
-      ) }, void 0, !1, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 24,
-        columnNumber: 11
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 20,
-      columnNumber: 9
-    }, this) }, void 0, !1, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 19,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: " flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "flex  items-center ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { className: "md:mr-3 text-center font-poppins font-semibold xs:text-[12px] text-gradient md:text-[30px] xs:leading-[53.16px] leading-[43.16px] text-white", children: "Trust Pilot" }, void 0, !1, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 35,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-        "img",
-        {
-          src: "/rating.png",
-          alt: "rating",
-          className: "w-[100px] md:w-[150px] ml-3 "
-        },
-        void 0,
-        !1,
-        {
-          fileName: "app/components/StatsBar.jsx",
-          lineNumber: 39,
-          columnNumber: 13
-        },
-        this
-      ) }, void 0, !1, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 38,
-        columnNumber: 11
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 34,
-      columnNumber: 9
-    }, this) }, void 0, !1, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 33,
-      columnNumber: 7
-    }, this)
-  ] }, void 0, !0, {
+    },
+    this
+  )) }, void 0, !1, {
     fileName: "app/components/StatsBar.jsx",
     lineNumber: 5,
     columnNumber: 5
@@ -1348,7 +1286,7 @@ function Layour() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-DN7WMHK7.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-HE3JTGL3.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ENUK4S4Q.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-BGVVRGMQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-RN4FCGPU.js", imports: ["/build/_shared/chunk-DR3GAVAJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-JA3C3PBL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "7b902b15", hmr: { runtime: "/build/_shared/chunk-ENUK4S4Q.js", timestamp: 1693222479507 }, url: "/build/manifest-7B902B15.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-GBLN4FHM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-ZBQLFX2L.js", imports: ["/build/_shared/chunk-4T526E6I.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-XV44EII2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "f66660a3", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693225595478 }, url: "/build/manifest-F66660A3.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

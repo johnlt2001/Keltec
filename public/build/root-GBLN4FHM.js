@@ -5,24 +5,24 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-HE3JTGL3.js";
+} from "/build/_shared/chunk-BBWYR4BF.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-ENUK4S4Q.js";
+} from "/build/_shared/chunk-ZV7NBZZ7.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
 
-// css-bundle-update-plugin-ns:/Users/johnthornton/Desktop/Keltec/my-remix-app/node_modules/@remix-run/css-bundle/dist/esm/index.js
+// css-bundle-update-plugin-ns:/Users/johnthornton/Desktop/keltec-performance/node_modules/@remix-run/css-bundle/dist/esm/index.js
 var cssBundleHref = false ? void 0 : void 0;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-PV3KNBAH.css";
+var tailwind_default = "/build/_assets/tailwind-2MFKXYYF.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -134,4 +134,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-BGVVRGMQ.js.map
+//# sourceMappingURL=/build/root-GBLN4FHM.js.map

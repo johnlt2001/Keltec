@@ -3,13 +3,13 @@ import {
   feedback,
   layout,
   styles_default
-} from "/build/_shared/chunk-DR3GAVAJ.js";
+} from "/build/_shared/chunk-4T526E6I.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-ENUK4S4Q.js";
+} from "/build/_shared/chunk-ZV7NBZZ7.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import "/build/_shared/chunk-BOXFZXVX.js";
 import {
@@ -182,7 +182,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/CallToAction.jsx"
   );
-  import.meta.hot.lastModified = "1693221477132.8743";
+  import.meta.hot.lastModified = "1693221477132.874";
 }
 var CTA = () => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("section", { className: `flex flex-col md:flex-row-reverse ${styles_default.marginY} ${styles_default.padding} bg-black-gradient-2 rounded-[20px] box-shadow m-10`, children: [
   /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex-1 flex flex-col", children: [
@@ -256,7 +256,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/FindOutMore.jsx"
   );
-  import.meta.hot.lastModified = "1689505670837.2231";
+  import.meta.hot.lastModified = "1689505670837.2234";
 }
 function FindOutMore() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: `${styles_default.flexCenter} w-[140px] h-[140px] mt-8 rounded-full bg-green-600 p-[2px] cursor-pointer`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: `${styles_default.flexCenter} flex-col bg-black-gradient w-[100%] h-[100%] rounded-full`, children: [
@@ -457,79 +457,30 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/StatsBar.jsx"
   );
-  import.meta.hot.lastModified = "1689506134152.2188";
+  import.meta.hot.lastModified = "1693225594924.176";
 }
+var platforms = ["Facebook", "Google", "Trust Pilot"];
 function Stats() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "w-full flex md:flex-row px-1 md:px-5 mb-2 py-5 justify-around ", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: " flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex items-center ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { className: " mr:0 md:mr-3 text-center font-poppins font-semibold xs:text-[12px] md:text-[30px] text-gradient xs:leading-[53.16px] leading-[43.16px] text-white", children: "Facebook" }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 26,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/rating.png", alt: "rating", className: "w-[100px] md:w-[150px] ml-3 " }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 29,
-        columnNumber: 11
-      }, this)
-    ] }, void 0, true, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { className: "w-full flex flex-wrap px-1 md:px-5 mb-2 py-5 justify-around", children: platforms.map((platform) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex justify-center w-full xs:w-auto mb-4 xs:mb-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col xs:flex-row items-center justify-center w-full", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { className: "text-center font-poppins font-semibold text-lg xs:text-[20px] md:text-[30px] text-gradient leading-[53.16px] md:leading-[43.16px] text-white mb-2 xs:mb-0 xs:mr-3", children: platform }, void 0, false, {
       fileName: "app/components/StatsBar.jsx",
-      lineNumber: 25,
-      columnNumber: 9
-    }, this) }, void 0, false, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 24,
-      columnNumber: 7
+      lineNumber: 26,
+      columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: " flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex  items-center ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { className: "md:mr-3 text-center font-poppins font-semibold xs:text-[12px] md:text-[30px] text-gradient xs:leading-[53.16px] leading-[43.16px] text-white", children: "Google" }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 35,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/rating.png", alt: "rating", className: "w-[100px] md:w-[150px] ml-3 " }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 39,
-        columnNumber: 13
-      }, this) }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 38,
-        columnNumber: 11
-      }, this)
-    ] }, void 0, true, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/rating.png", alt: "rating", className: "w-[100px] xs:w-[125px] md:w-[150px]" }, void 0, false, {
       fileName: "app/components/StatsBar.jsx",
-      lineNumber: 34,
-      columnNumber: 9
-    }, this) }, void 0, false, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 33,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: " flex justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex  items-center ", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { className: "md:mr-3 text-center font-poppins font-semibold xs:text-[12px] text-gradient md:text-[30px] xs:leading-[53.16px] leading-[43.16px] text-white", children: "Trust Pilot" }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 45,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/rating.png", alt: "rating", className: "w-[100px] md:w-[150px] ml-3 " }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 49,
-        columnNumber: 13
-      }, this) }, void 0, false, {
-        fileName: "app/components/StatsBar.jsx",
-        lineNumber: 48,
-        columnNumber: 11
-      }, this)
-    ] }, void 0, true, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 44,
-      columnNumber: 9
-    }, this) }, void 0, false, {
-      fileName: "app/components/StatsBar.jsx",
-      lineNumber: 43,
-      columnNumber: 7
+      lineNumber: 29,
+      columnNumber: 13
     }, this)
   ] }, void 0, true, {
+    fileName: "app/components/StatsBar.jsx",
+    lineNumber: 25,
+    columnNumber: 11
+  }, this) }, platform, false, {
+    fileName: "app/components/StatsBar.jsx",
+    lineNumber: 24,
+    columnNumber: 34
+  }, this)) }, void 0, false, {
     fileName: "app/components/StatsBar.jsx",
     lineNumber: 23,
     columnNumber: 10
@@ -738,4 +689,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_MainLayout._index-JA3C3PBL.js.map
+//# sourceMappingURL=/build/routes/_MainLayout._index-XV44EII2.js.map
