@@ -182,7 +182,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/CallToAction.jsx"
   );
-  import.meta.hot.lastModified = "1693221477132.874";
+  import.meta.hot.lastModified = "1693226313128.8916";
 }
 var CTA = () => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("section", { className: `flex flex-col md:flex-row-reverse ${styles_default.marginY} ${styles_default.padding} bg-black-gradient-2 rounded-[20px] box-shadow m-10`, children: [
   /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex-1 flex flex-col", children: [
@@ -216,7 +216,7 @@ var CTA = () => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("section", {
     lineNumber: 24,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "mt-4 md:mt-0 md:ml-4 md:pl-4 w-full md:w-1/2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/custom-exhaust-system.jpeg", alt: "Custom Exhaust System", className: "w-full object-cover" }, void 0, false, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "mt-4 md:mt-0 md:ml-4 md:pl-4 w-full md:w-1/2 md:block hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/custom-exhaust-system.jpeg", alt: "Custom Exhaust System", className: "w-full object-cover" }, void 0, false, {
     fileName: "app/components/CallToAction.jsx",
     lineNumber: 40,
     columnNumber: 7
@@ -689,4 +689,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_MainLayout._index-XV44EII2.js.map
+//# sourceMappingURL=/build/routes/_MainLayout._index-KDBFLZ34.js.map

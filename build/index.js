@@ -157,7 +157,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-AZCQ53OF.css";
+var tailwind_default = "/build/_assets/tailwind-I4W74UP4.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -545,7 +545,7 @@ var import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), CTA = () => /* @
         lineNumber: 8,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "mt-4 md:mt-0 md:ml-4 md:pl-4 w-full md:w-1/2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "mt-4 md:mt-0 md:ml-4 md:pl-4 w-full md:w-1/2 md:block hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
         "img",
         {
           src: "/custom-exhaust-system.jpeg",
@@ -1286,7 +1286,7 @@ function Layour() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TMT4LXQS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-3SKDN77T.js", imports: ["/build/_shared/chunk-4T526E6I.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-XV44EII2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8d17c357", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693226119833 }, url: "/build/manifest-8D17C357.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-XYCTQWB7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-3SKDN77T.js", imports: ["/build/_shared/chunk-4T526E6I.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-KDBFLZ34.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "be284bbd", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693226313768 }, url: "/build/manifest-BE284BBD.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

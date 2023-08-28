@@ -499,9 +499,6 @@ video {
 .h-\[80\%\] {
   height: 80%;
 }
-.h-\[90px\] {
-  height: 90px;
-}
 .h-auto {
   height: auto;
 }
@@ -517,6 +514,9 @@ video {
 .w-\[140px\] {
   width: 140px;
 }
+.w-\[150px\] {
+  width: 150px;
+}
 .w-\[21px\] {
   width: 21px;
 }
@@ -525,9 +525,6 @@ video {
 }
 .w-\[266px\] {
   width: 266px;
-}
-.w-\[350px\] {
-  width: 350px;
 }
 .w-\[48px\] {
   width: 48px;
@@ -543,9 +540,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-\[150px\] {
-  width: 150px;
 }
 .min-w-\[150px\] {
   min-width: 150px;
@@ -910,14 +904,8 @@ video {
   .xs\:mr-3 {
     margin-right: .75rem;
   }
-  .xs\:h-\[55px\] {
-    height: 55px;
-  }
   .xs\:w-\[125px\] {
     width: 125px;
-  }
-  .xs\:w-\[200px\] {
-    width: 200px;
   }
   .xs\:w-auto {
     width: auto;
@@ -974,9 +962,6 @@ video {
   .sm\:block {
     display: block;
   }
-  .sm\:h-\[65px\] {
-    height: 65px;
-  }
   .sm\:w-\[250px\] {
     width: 250px;
   }
@@ -1004,9 +989,6 @@ video {
   .md\:ml-10 {
     margin-left: 2.5rem;
   }
-  .md\:ml-4 {
-    margin-left: 1rem;
-  }
   .md\:ml-8 {
     margin-left: 2rem;
   }
@@ -1019,20 +1001,26 @@ video {
   .md\:mt-0 {
     margin-top: 0;
   }
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+  .md\:block {
+    display: block;
+  }
   .md\:flex {
     display: flex;
   }
   .md\:hidden {
     display: none;
   }
-  .md\:w-1\/2 {
-    width: 50%;
-  }
   .md\:w-\[150px\] {
     width: 150px;
   }
   .md\:w-\[350px\] {
     width: 350px;
+  }
+  .md\:w-1\/2 {
+    width: 50%;
   }
   .md\:flex-row {
     flex-direction: row;
@@ -1044,14 +1032,14 @@ video {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
-  .md\:pl-4 {
-    padding-left: 1rem;
-  }
   .md\:pl-7 {
     padding-left: 1.75rem;
   }
   .md\:pr-0 {
     padding-right: 0;
+  }
+  .md\:pl-4 {
+    padding-left: 1rem;
   }
   .md\:text-left {
     text-align: left;
@@ -1064,12 +1052,6 @@ video {
   }
 }
 @media (min-width: 1200px) {
-  .lg\:flex {
-    display: flex;
-  }
-  .lg\:hidden {
-    display: none;
-  }
   .lg\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -1079,4 +1061,4 @@ video {
     max-width: 3456px;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-GVKJJFT3.css.map */
+/*# sourceMappingURL=/build/_assets/tailwind-CFQCY3CH.css.map */

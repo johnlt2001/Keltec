@@ -22,7 +22,7 @@ const CTA = () => (
       </div>
     </div>
 
-    <div className="mt-4 md:mt-0 md:ml-4 md:pl-4 w-full md:w-1/2">
+    <div className="mt-4 md:mt-0 md:ml-4 md:pl-4 w-full md:w-1/2 md:block hidden">
       <img
         src="/custom-exhaust-system.jpeg"
         alt="Custom Exhaust System"
