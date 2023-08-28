@@ -324,7 +324,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/Hero.jsx"
   );
-  import.meta.hot.lastModified = "1693227992370.4758";
+  import.meta.hot.lastModified = "1693228281395.8628";
 }
 function Hero() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("section", { id: "home", className: `flex md:flex-row flex-col mb-5 ${styles_default.paddingY}`, children: [
@@ -344,22 +344,22 @@ function Hero() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-row justify-between items-center w-full", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { className: "flex-1 font-poppins font-semibold xs:text-[40px] ss:text-[72px] text-[52px] text-white xs:leading-[70px] ss:leading-[100.8px] leading-[75px]", children: [
-          "Quality Custom",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", { className: "md:hidden block" }, void 0, false, {
+          "Quality Custom ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "md:hidden block h-0", children: " " }, void 0, false, {
             fileName: "app/components/Hero.jsx",
-            lineNumber: 34,
-            columnNumber: 13
+            lineNumber: 33,
+            columnNumber: 28
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "text-gradient md:inline-block inline-block", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", { className: "xs:hidden block" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "text-gradient", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "xs:hidden", children: " " }, void 0, false, {
               fileName: "app/components/Hero.jsx",
-              lineNumber: 36,
+              lineNumber: 35,
               columnNumber: 15
             }, this),
             "Stainless Steel"
           ] }, void 0, true, {
             fileName: "app/components/Hero.jsx",
-            lineNumber: 35,
+            lineNumber: 34,
             columnNumber: 13
           }, this)
         ] }, void 0, true, {
@@ -369,11 +369,11 @@ function Hero() {
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "ss:flex hidden md:mr-4 mr-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(FindOutMore, {}, void 0, false, {
           fileName: "app/components/Hero.jsx",
-          lineNumber: 41,
+          lineNumber: 40,
           columnNumber: 13
         }, this) }, void 0, false, {
           fileName: "app/components/Hero.jsx",
-          lineNumber: 40,
+          lineNumber: 39,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
@@ -383,12 +383,12 @@ function Hero() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { className: "font-poppins font-semibold xs:text-[36px] ss:text-[68px] text-[52px] text-white xs:leading-[65px] ss:leading-[100.8px] leading-[75px] w-full", children: "Exhaust Systems" }, void 0, false, {
         fileName: "app/components/Hero.jsx",
-        lineNumber: 44,
+        lineNumber: 43,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { className: `${styles_default.paragraph} max-w-[470px] mt-5`, children: "Our team of experts can use the latest CNC mandrel bending technology in addition to pressure bending and traditional mandrel bending options to manufacture a custom exhaust system that delivers unmatched durability." }, void 0, false, {
         fileName: "app/components/Hero.jsx",
-        lineNumber: 47,
+        lineNumber: 46,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
@@ -399,36 +399,36 @@ function Hero() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: `flex-1 flex  md:my-0  relative`, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: "/jag-2.png", alt: "Hero-car", className: "min-w-full object-contain mt-20 w-[100%] h-[100%] relative z-[5]" }, void 0, false, {
         fileName: "app/components/Hero.jsx",
-        lineNumber: 55,
+        lineNumber: 54,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute z-[0] w-[70%] h-[35%] top-0 pink__gradient" }, void 0, false, {
         fileName: "app/components/Hero.jsx",
-        lineNumber: 57,
+        lineNumber: 56,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute z-[1] w-[100%] h-[80%] rounded-full white__gradient bottom-40" }, void 0, false, {
         fileName: "app/components/Hero.jsx",
-        lineNumber: 58,
+        lineNumber: 57,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute z-[0] w-[100%] h-[20%] right-20 bottom-20 green__gradient" }, void 0, false, {
         fileName: "app/components/Hero.jsx",
-        lineNumber: 59,
+        lineNumber: 58,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/Hero.jsx",
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: `ss:hidden ${styles_default.flexCenter}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(FindOutMore, {}, void 0, false, {
       fileName: "app/components/Hero.jsx",
-      lineNumber: 63,
+      lineNumber: 62,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/components/Hero.jsx",
-      lineNumber: 62,
+      lineNumber: 61,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -705,4 +705,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_MainLayout._index-AS2AQBVT.js.map
+//# sourceMappingURL=/build/routes/_MainLayout._index-B4TKTZZC.js.map

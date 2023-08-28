@@ -157,7 +157,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-SAG2CERK.css";
+var tailwind_default = "/build/_assets/tailwind-MD55MZ5T.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -684,22 +684,22 @@ function Hero() {
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex flex-row justify-between items-center w-full", children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { className: "flex-1 font-poppins font-semibold xs:text-[40px] ss:text-[72px] text-[52px] text-white xs:leading-[70px] ss:leading-[100.8px] leading-[75px]", children: [
-                  "Quality Custom",
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", { className: "md:hidden block" }, void 0, !1, {
+                  "Quality Custom ",
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: "md:hidden block h-0", children: " " }, void 0, !1, {
                     fileName: "app/components/Hero.jsx",
-                    lineNumber: 21,
-                    columnNumber: 13
+                    lineNumber: 20,
+                    columnNumber: 28
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: "text-gradient md:inline-block inline-block", children: [
-                    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", { className: "xs:hidden block" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: "text-gradient", children: [
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: "xs:hidden", children: " " }, void 0, !1, {
                       fileName: "app/components/Hero.jsx",
-                      lineNumber: 23,
+                      lineNumber: 22,
                       columnNumber: 15
                     }, this),
                     "Stainless Steel"
                   ] }, void 0, !0, {
                     fileName: "app/components/Hero.jsx",
-                    lineNumber: 22,
+                    lineNumber: 21,
                     columnNumber: 13
                   }, this)
                 ] }, void 0, !0, {
@@ -709,11 +709,11 @@ function Hero() {
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "ss:flex hidden md:mr-4 mr-0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(FindOutMore, {}, void 0, !1, {
                   fileName: "app/components/Hero.jsx",
-                  lineNumber: 28,
+                  lineNumber: 27,
                   columnNumber: 13
                 }, this) }, void 0, !1, {
                   fileName: "app/components/Hero.jsx",
-                  lineNumber: 27,
+                  lineNumber: 26,
                   columnNumber: 11
                 }, this)
               ] }, void 0, !0, {
@@ -723,12 +723,12 @@ function Hero() {
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { className: "font-poppins font-semibold xs:text-[36px] ss:text-[68px] text-[52px] text-white xs:leading-[65px] ss:leading-[100.8px] leading-[75px] w-full", children: "Exhaust Systems" }, void 0, !1, {
                 fileName: "app/components/Hero.jsx",
-                lineNumber: 31,
+                lineNumber: 30,
                 columnNumber: 9
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: `${styles_default.paragraph} max-w-[470px] mt-5`, children: "Our team of experts can use the latest CNC mandrel bending technology in addition to pressure bending and traditional mandrel bending options to manufacture a custom exhaust system that delivers unmatched durability." }, void 0, !1, {
                 fileName: "app/components/Hero.jsx",
-                lineNumber: 34,
+                lineNumber: 33,
                 columnNumber: 9
               }, this)
             ]
@@ -754,38 +754,38 @@ function Hero() {
             !1,
             {
               fileName: "app/components/Hero.jsx",
-              lineNumber: 42,
+              lineNumber: 41,
               columnNumber: 9
             },
             this
           ),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "absolute z-[0] w-[70%] h-[35%] top-0 pink__gradient" }, void 0, !1, {
             fileName: "app/components/Hero.jsx",
-            lineNumber: 48,
+            lineNumber: 47,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "absolute z-[1] w-[100%] h-[80%] rounded-full white__gradient bottom-40" }, void 0, !1, {
             fileName: "app/components/Hero.jsx",
-            lineNumber: 49,
+            lineNumber: 48,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "absolute z-[0] w-[100%] h-[20%] right-20 bottom-20 green__gradient" }, void 0, !1, {
             fileName: "app/components/Hero.jsx",
-            lineNumber: 50,
+            lineNumber: 49,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Hero.jsx",
-          lineNumber: 41,
+          lineNumber: 40,
           columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: `ss:hidden ${styles_default.flexCenter}`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(FindOutMore, {}, void 0, !1, {
           fileName: "app/components/Hero.jsx",
-          lineNumber: 54,
+          lineNumber: 53,
           columnNumber: 9
         }, this) }, void 0, !1, {
           fileName: "app/components/Hero.jsx",
-          lineNumber: 53,
+          lineNumber: 52,
           columnNumber: 7
         }, this)
       ]
@@ -1300,7 +1300,7 @@ function Layour() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-JFINWMIA.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-VXRVFPBA.js", imports: ["/build/_shared/chunk-J6BWMB4P.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-AS2AQBVT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5f4eaf6e", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693227993219 }, url: "/build/manifest-5F4EAF6E.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YKQXQIMH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-VXRVFPBA.js", imports: ["/build/_shared/chunk-J6BWMB4P.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-B4TKTZZC.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "40493fa2", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693228281829 }, url: "/build/manifest-40493FA2.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

@@ -22,7 +22,7 @@ import {
 var cssBundleHref = false ? void 0 : void 0;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-SAG2CERK.css";
+var tailwind_default = "/build/_assets/tailwind-MD55MZ5T.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -134,4 +134,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-JFINWMIA.js.map
+//# sourceMappingURL=/build/root-YKQXQIMH.js.map

@@ -17,10 +17,9 @@ export default function Hero() {
         </div>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold xs:text-[40px] ss:text-[72px] text-[52px] text-white xs:leading-[70px] ss:leading-[100.8px] leading-[75px]">
-            Quality Custom
-            <br className="md:hidden block" />
-            <span className="text-gradient md:inline-block inline-block">
-              <br className="xs:hidden block" />
+            Quality Custom <span className="md:hidden block h-0"> </span>
+            <span className="text-gradient">
+              <span className="xs:hidden"> </span>
               Stainless Steel
             </span>
           </h1>

@@ -505,6 +505,9 @@ video {
 .h-auto {
   height: auto;
 }
+.h-0 {
+  height: 0px;
+}
 .w-7 {
   width: 1.75rem;
 }
@@ -1100,4 +1103,4 @@ video {
     max-width: 3456px;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-IKJZOMEO.css.map */
+/*# sourceMappingURL=/build/_assets/tailwind-YD7MDDZ7.css.map */
