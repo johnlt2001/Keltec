@@ -37,7 +37,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/constants/index.jsx"
   );
-  import.meta.hot.lastModified = "1693221636703.8647";
+  import.meta.hot.lastModified = "1693226766588.368";
 }
 var navLinks = [
   {
@@ -96,19 +96,22 @@ var feedback = [
     id: "feedback-1",
     content: "Absolutely perfect service as always used these guys since 2017 they have done 5 of my cars since then had a few full turbo back systems done and some other res deletes etc done ",
     name: "Don Fisher",
-    service: "Custom Exhaust"
+    service: "Custom Exhaust",
+    img: "https://lh3.googleusercontent.com/a-/AD_cMMQ6PDfviDUVTOYmdzBm4SC2HXXZLd2lqRIbfMzG-BDoiX0=w60-h60-p-rp-mo-br100"
   },
   {
     id: "feedback-2",
     content: "Came up from Manchester to see these guys for a resonator delete on my Focus ST mk3.5 and all I can tell you is it was well worth the trip! After 2 days of driving the car around it now sounds exactly as it should have straight out of the the factory. I also got a quote whilst there for a full custom exhaust system and it beats any price that you would pay for off the shelf name brand exhausts.",
     name: "Mike Shaw",
-    service: "Resonator Delete"
+    service: "Resonator Delete",
+    img: "https://lh3.googleusercontent.com/a-/AD_cMMSrV6gpOMMJ86gjakNuGR9gj5OQdsT-DkbXzS4jg_Sh0as=w60-h60-p-rp-mo-ba2-br100"
   },
   {
     id: "feedback-3",
     content: "Just want to say a huge thanks to everyone at Keltec. Fantastic, hassle free experience with outstanding value for money. Came here for the exhaust doing on my Audi A5, it sounds and looks ACE! Would highly recommend them to anyone that is in the market for an exhaust!",
     name: "Joshua Gawthorpe",
-    service: "Custom Exhaust"
+    service: "Custom Exhaust",
+    img: "https://lh3.googleusercontent.com/a-/AD_cMMT9MM8db0zjNenuDOeV6MPa2C7lEqZyZ0OA0igBdYzU0L4=w60-h60-p-rp-mo-br100"
   }
 ];
 var footerLinks = [
@@ -182,4 +185,4 @@ export {
   layout,
   styles_default
 };
-//# sourceMappingURL=/build/_shared/chunk-4T526E6I.js.map
+//# sourceMappingURL=/build/_shared/chunk-PBMWK72N.js.map

@@ -157,7 +157,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-I4W74UP4.css";
+var tailwind_default = "/build/_assets/tailwind-WK5QNXAF.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -289,19 +289,22 @@ var features = [
     id: "feedback-1",
     content: "Absolutely perfect service as always used these guys since 2017 they have done 5 of my cars since then had a few full turbo back systems done and some other res deletes etc done ",
     name: "Don Fisher",
-    service: "Custom Exhaust"
+    service: "Custom Exhaust",
+    img: "https://lh3.googleusercontent.com/a-/AD_cMMQ6PDfviDUVTOYmdzBm4SC2HXXZLd2lqRIbfMzG-BDoiX0=w60-h60-p-rp-mo-br100"
   },
   {
     id: "feedback-2",
     content: "Came up from Manchester to see these guys for a resonator delete on my Focus ST mk3.5 and all I can tell you is it was well worth the trip! After 2 days of driving the car around it now sounds exactly as it should have straight out of the the factory. I also got a quote whilst there for a full custom exhaust system and it beats any price that you would pay for off the shelf name brand exhausts.",
     name: "Mike Shaw",
-    service: "Resonator Delete"
+    service: "Resonator Delete",
+    img: "https://lh3.googleusercontent.com/a-/AD_cMMSrV6gpOMMJ86gjakNuGR9gj5OQdsT-DkbXzS4jg_Sh0as=w60-h60-p-rp-mo-ba2-br100"
   },
   {
     id: "feedback-3",
     content: "Just want to say a huge thanks to everyone at Keltec. Fantastic, hassle free experience with outstanding value for money. Came here for the exhaust doing on my Audi A5, it sounds and looks ACE! Would highly recommend them to anyone that is in the market for an exhaust!",
     name: "Joshua Gawthorpe",
-    service: "Custom Exhaust"
+    service: "Custom Exhaust",
+    img: "https://lh3.googleusercontent.com/a-/AD_cMMT9MM8db0zjNenuDOeV6MPa2C7lEqZyZ0OA0igBdYzU0L4=w60-h60-p-rp-mo-br100"
   }
 ], footerLinks = [
   {
@@ -858,46 +861,57 @@ function Stats() {
 var import_react3 = require("react");
 
 // app/components/FeedbackCard.jsx
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), FeedbackCard = ({ content, name, service, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), FeedbackCard = ({ content, name, service, img }) => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "mx-auto sm:text-left text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
     "img",
     {
       src: "/rating.png",
       alt: "double_quotes",
-      className: "w-[100px] h-[27.6px] object-contain mx-auto block"
+      className: "w-[150px] h-[27.6px] object-contain inline-block"
     },
     void 0,
     !1,
     {
       fileName: "app/components/FeedbackCard.jsx",
-      lineNumber: 3,
-      columnNumber: 5
+      lineNumber: 4,
+      columnNumber: 7
     },
     this
-  ),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10", children: content }, void 0, !1, {
+  ) }, void 0, !1, {
     fileName: "app/components/FeedbackCard.jsx",
-    lineNumber: 8,
+    lineNumber: 3,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-row", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col ml-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h4", { className: "font-poppins font-semibold text-[20px] leading-[32px] text-white", children: name }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10", children: content }, void 0, !1, {
+    fileName: "app/components/FeedbackCard.jsx",
+    lineNumber: 10,
+    columnNumber: 5
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-row", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: img, alt: name, className: "w-[48px] h-[48px] rounded-full" }, void 0, !1, {
       fileName: "app/components/FeedbackCard.jsx",
       lineNumber: 15,
-      columnNumber: 9
+      columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite", children: service }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "flex flex-col ml-4", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h4", { className: "font-poppins font-semibold text-[20px] leading-[32px] text-white", children: name }, void 0, !1, {
+        fileName: "app/components/FeedbackCard.jsx",
+        lineNumber: 17,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite", children: service }, void 0, !1, {
+        fileName: "app/components/FeedbackCard.jsx",
+        lineNumber: 20,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
       fileName: "app/components/FeedbackCard.jsx",
-      lineNumber: 18,
-      columnNumber: 9
+      lineNumber: 16,
+      columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/FeedbackCard.jsx",
     lineNumber: 14,
-    columnNumber: 7
-  }, this) }, void 0, !1, {
-    fileName: "app/components/FeedbackCard.jsx",
-    lineNumber: 12,
     columnNumber: 5
   }, this)
 ] }, void 0, !0, {
@@ -1286,7 +1300,7 @@ function Layour() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-XYCTQWB7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-3SKDN77T.js", imports: ["/build/_shared/chunk-4T526E6I.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-KDBFLZ34.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "be284bbd", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693226313768 }, url: "/build/manifest-BE284BBD.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-S7LM7HYX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-XX3SZVBS.js", imports: ["/build/_shared/chunk-PBMWK72N.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-HPC3SVJ2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "dab70757", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693226895310 }, url: "/build/manifest-DAB70757.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

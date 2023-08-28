@@ -3,7 +3,7 @@ import {
   feedback,
   layout,
   styles_default
-} from "/build/_shared/chunk-4T526E6I.js";
+} from "/build/_shared/chunk-PBMWK72N.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
@@ -511,42 +511,53 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/FeedbackCard.jsx"
   );
-  import.meta.hot.lastModified = "1693216214108.3125";
+  import.meta.hot.lastModified = "1693226894746.138";
 }
 var FeedbackCard = ({
   content,
   name,
   service,
   img
-}) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/rating.png", alt: "double_quotes", className: "w-[100px] h-[27.6px] object-contain mx-auto block" }, void 0, false, {
+}) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card", children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "mx-auto sm:text-left text-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: "/rating.png", alt: "double_quotes", className: "w-[150px] h-[27.6px] object-contain inline-block" }, void 0, false, {
+    fileName: "app/components/FeedbackCard.jsx",
+    lineNumber: 28,
+    columnNumber: 7
+  }, this) }, void 0, false, {
     fileName: "app/components/FeedbackCard.jsx",
     lineNumber: 27,
     columnNumber: 5
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10", children: content }, void 0, false, {
     fileName: "app/components/FeedbackCard.jsx",
-    lineNumber: 28,
+    lineNumber: 30,
     columnNumber: 5
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex flex-row", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex flex-col ml-4", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { className: "font-poppins font-semibold text-[20px] leading-[32px] text-white", children: name }, void 0, false, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex flex-row", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: img, alt: name, className: "w-[48px] h-[48px] rounded-full" }, void 0, false, {
       fileName: "app/components/FeedbackCard.jsx",
       lineNumber: 35,
-      columnNumber: 9
+      columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite", children: service }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "flex flex-col ml-4", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h4", { className: "font-poppins font-semibold text-[20px] leading-[32px] text-white", children: name }, void 0, false, {
+        fileName: "app/components/FeedbackCard.jsx",
+        lineNumber: 37,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "font-poppins font-normal text-[16px] leading-[24px] text-dimWhite", children: service }, void 0, false, {
+        fileName: "app/components/FeedbackCard.jsx",
+        lineNumber: 40,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
       fileName: "app/components/FeedbackCard.jsx",
-      lineNumber: 38,
-      columnNumber: 9
+      lineNumber: 36,
+      columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/FeedbackCard.jsx",
     lineNumber: 34,
-    columnNumber: 7
-  }, this) }, void 0, false, {
-    fileName: "app/components/FeedbackCard.jsx",
-    lineNumber: 32,
     columnNumber: 5
   }, this)
 ] }, void 0, true, {
@@ -689,4 +700,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_MainLayout._index-KDBFLZ34.js.map
+//# sourceMappingURL=/build/routes/_MainLayout._index-HPC3SVJ2.js.map

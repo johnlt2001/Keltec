@@ -454,6 +454,9 @@ video {
 .block {
   display: block;
 }
+.inline-block {
+  display: inline-block;
+}
 .flex {
   display: flex;
 }
@@ -540,6 +543,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[1px\] {
+  width: 1px;
 }
 .min-w-\[150px\] {
   min-width: 150px;
@@ -989,6 +995,9 @@ video {
   .md\:ml-10 {
     margin-left: 2.5rem;
   }
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
   .md\:ml-8 {
     margin-left: 2rem;
   }
@@ -1001,9 +1010,6 @@ video {
   .md\:mt-0 {
     margin-top: 0;
   }
-  .md\:ml-4 {
-    margin-left: 1rem;
-  }
   .md\:block {
     display: block;
   }
@@ -1013,14 +1019,14 @@ video {
   .md\:hidden {
     display: none;
   }
+  .md\:w-1\/2 {
+    width: 50%;
+  }
   .md\:w-\[150px\] {
     width: 150px;
   }
   .md\:w-\[350px\] {
     width: 350px;
-  }
-  .md\:w-1\/2 {
-    width: 50%;
   }
   .md\:flex-row {
     flex-direction: row;
@@ -1032,14 +1038,14 @@ video {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
+  .md\:pl-4 {
+    padding-left: 1rem;
+  }
   .md\:pl-7 {
     padding-left: 1.75rem;
   }
   .md\:pr-0 {
     padding-right: 0;
-  }
-  .md\:pl-4 {
-    padding-left: 1rem;
   }
   .md\:text-left {
     text-align: left;
@@ -1061,4 +1067,4 @@ video {
     max-width: 3456px;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-CFQCY3CH.css.map */
+/*# sourceMappingURL=/build/_assets/tailwind-PP6JMAIG.css.map */
