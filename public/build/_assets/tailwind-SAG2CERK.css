@@ -451,6 +451,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.block {
+  display: block;
+}
 .inline-block {
   display: inline-block;
 }
@@ -910,6 +913,9 @@ video {
   .xs\:mr-3 {
     margin-right: .75rem;
   }
+  .xs\:hidden {
+    display: none;
+  }
   .xs\:w-\[125px\] {
     width: 125px;
   }
@@ -922,11 +928,23 @@ video {
   .xs\:text-\[20px\] {
     font-size: 20px;
   }
-  .xs\:text-\[38px\] {
-    font-size: 38px;
+  .xs\:text-\[30px\] {
+    font-size: 30px;
   }
-  .xs\:leading-\[76\.8px\] {
-    line-height: 76.8px;
+  .xs\:text-\[36px\] {
+    font-size: 36px;
+  }
+  .xs\:text-\[40px\] {
+    font-size: 40px;
+  }
+  .xs\:leading-\[60px\] {
+    line-height: 60px;
+  }
+  .xs\:leading-\[65px\] {
+    line-height: 65px;
+  }
+  .xs\:leading-\[70px\] {
+    line-height: 70px;
   }
 }
 @media (min-width: 620px) {
@@ -986,6 +1004,12 @@ video {
   .sm\:text-left {
     text-align: left;
   }
+  .sm\:text-\[38px\] {
+    font-size: 38px;
+  }
+  .sm\:leading-\[76\.8px\] {
+    line-height: 76.8px;
+  }
 }
 @media (min-width: 1060px) {
   .md\:my-0 {
@@ -1012,6 +1036,9 @@ video {
   }
   .md\:block {
     display: block;
+  }
+  .md\:inline-block {
+    display: inline-block;
   }
   .md\:flex {
     display: flex;
@@ -1073,4 +1100,4 @@ video {
     max-width: 3456px;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-QCMSMINM.css.map */
+/*# sourceMappingURL=/build/_assets/tailwind-IKJZOMEO.css.map */
