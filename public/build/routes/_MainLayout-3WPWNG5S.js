@@ -79,13 +79,28 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/Navbar.jsx"
   );
-  import.meta.hot.lastModified = "1693226119302.5183";
+  import.meta.hot.lastModified = "1693227382901.1238";
 }
 function Navbar() {
   _s();
   const [toggle, setToggle] = (0, import_react.useState)(false);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "w-full flex py-6 justify-between items-center", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/Logo_Keltec-1400x368-green-600.png", alt: "Logo", className: "w-[150px] sm:w-[250px] md:w-[350px] h-auto" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex items-center w-full md:w-auto", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/Logo_Keltec-1400x368-green-600.png", alt: "Logo", className: "w-[90%] sm:w-[250px] md:w-[350px] lg:w-[350px] h-auto" }, void 0, false, {
+        fileName: "app/components/Navbar.jsx",
+        lineNumber: 31,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex flex-1 justify-end items-center md:hidden w-[10%]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: !toggle ? "/menu.svg" : "/close.svg", alt: "menu", className: "w-7 h-7 object-contain", onClick: () => setToggle((prev) => !prev) }, void 0, false, {
+        fileName: "app/components/Navbar.jsx",
+        lineNumber: 33,
+        columnNumber: 11
+      }, this) }, void 0, false, {
+        fileName: "app/components/Navbar.jsx",
+        lineNumber: 32,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
       fileName: "app/components/Navbar.jsx",
       lineNumber: 30,
       columnNumber: 7
@@ -93,54 +108,45 @@ function Navbar() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { className: "list-none hidden md:flex justify-end items-center flex-1", children: [
       navLinks.map((nav, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: `font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length - 1 ? "mr-0" : "mr-10 "} `, children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: `${nav.link}`, children: nav.title }, void 0, false, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 33,
+        lineNumber: 38,
         columnNumber: 13
       }, this) }, nav.id, false, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 32,
+        lineNumber: 37,
         columnNumber: 39
       }, this)),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ContactButton, {}, void 0, false, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 35,
+        lineNumber: 40,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/Navbar.jsx",
-      lineNumber: 31,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex flex-1 justify-end items-center md:hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: !toggle ? "/menu.svg" : "/close.svg", alt: "menu", className: "w-7 h-7 object-contain", onClick: () => setToggle((prev) => !prev) }, void 0, false, {
-      fileName: "app/components/Navbar.jsx",
-      lineNumber: 38,
-      columnNumber: 9
-    }, this) }, void 0, false, {
-      fileName: "app/components/Navbar.jsx",
-      lineNumber: 37,
+      lineNumber: 36,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: `${toggle ? "flex" : "hidden"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[240px] rounded-xl sidebar`, children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { className: "list-none flex flex-col justify-end items-center flex-1", children: [
       navLinks.map((nav, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: `font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-gray-500 ${index === navLinks.length - 1 ? "mr-0" : "mb-4 "} `, children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: `${nav.link}`, children: nav.title }, void 0, false, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 15
       }, this) }, nav.id, false, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 41
       }, this)),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ContactButton, {}, void 0, false, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 46,
+        lineNumber: 47,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/Navbar.jsx",
-      lineNumber: 42,
+      lineNumber: 43,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/components/Navbar.jsx",
-      lineNumber: 41,
+      lineNumber: 42,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -320,4 +326,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Layour as default
 };
-//# sourceMappingURL=/build/routes/_MainLayout-XX3SZVBS.js.map
+//# sourceMappingURL=/build/routes/_MainLayout-3WPWNG5S.js.map

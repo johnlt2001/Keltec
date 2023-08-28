@@ -451,9 +451,6 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
-.block {
-  display: block;
-}
 .inline-block {
   display: inline-block;
 }
@@ -544,8 +541,14 @@ video {
 .w-full {
   width: 100%;
 }
-.w-\[1px\] {
-  width: 1px;
+.w-auto {
+  width: auto;
+}
+.w-\[10\%\] {
+  width: 10%;
+}
+.w-\[90\%\] {
+  width: 90%;
 }
 .min-w-\[150px\] {
   min-width: 150px;
@@ -573,6 +576,9 @@ video {
 }
 .flex-\[1\] {
   flex: 1;
+}
+.flex-grow {
+  flex-grow: 1;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1028,6 +1034,9 @@ video {
   .md\:w-\[350px\] {
     width: 350px;
   }
+  .md\:w-auto {
+    width: auto;
+  }
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1058,6 +1067,9 @@ video {
   }
 }
 @media (min-width: 1200px) {
+  .lg\:w-\[350px\] {
+    width: 350px;
+  }
   .lg\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -1067,4 +1079,4 @@ video {
     max-width: 3456px;
   }
 }
-/*# sourceMappingURL=/build/_assets/tailwind-PP6JMAIG.css.map */
+/*# sourceMappingURL=/build/_assets/tailwind-Z5IA5XDE.css.map */

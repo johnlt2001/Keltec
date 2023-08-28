@@ -8,11 +8,21 @@ export default function Navbar() {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center">
-      <img
-        src="/Logo_Keltec-1400x368-green-600.png"
-        alt="Logo"
-        className="w-[150px] sm:w-[250px] md:w-[350px] h-auto"
-      />
+      <div className="flex items-center w-full md:w-auto">
+        <img
+          src="/Logo_Keltec-1400x368-green-600.png"
+          alt="Logo"
+          className="w-[90%] sm:w-[250px] md:w-[350px] lg:w-[350px] h-auto"
+        />
+        <div className="flex flex-1 justify-end items-center md:hidden w-[10%]">
+          <img
+            src={!toggle ? "/menu.svg" : "/close.svg"}
+            alt="menu"
+            className="w-7 h-7 object-contain"
+            onClick={() => setToggle((prev) => !prev)}
+          />
+        </div>
+      </div>
       <ul className="list-none hidden md:flex justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -26,15 +36,6 @@ export default function Navbar() {
         ))}
         <ContactButton />
       </ul>
-      <div className="flex flex-1 justify-end items-center md:hidden">
-        <img
-          src={!toggle ? "/menu.svg" : "/close.svg"}
-          alt="menu"
-          className="w-7 h-7 object-contain"
-          onClick={() => setToggle((prev) => !prev)}
-        />
-      </div>
-
       <div
         className={`${
           toggle ? "flex" : "hidden"

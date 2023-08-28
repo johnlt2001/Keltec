@@ -22,7 +22,7 @@ import {
 var cssBundleHref = false ? void 0 : void 0;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-WK5QNXAF.css";
+var tailwind_default = "/build/_assets/tailwind-LOTIJ75S.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -134,4 +134,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-S7LM7HYX.js.map
+//# sourceMappingURL=/build/root-EQKFOE5Z.js.map
