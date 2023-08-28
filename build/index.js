@@ -157,7 +157,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-2MFKXYYF.css";
+var tailwind_default = "/build/_assets/tailwind-AZCQ53OF.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -1001,31 +1001,31 @@ function ContactButton() {
 var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function Navbar() {
   let [toggle, setToggle] = (0, import_react4.useState)(!1);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("nav", { className: "w-full flex py-6 justify-between items-center navbar", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("nav", { className: "w-full flex py-6 justify-between items-center", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
       "img",
       {
         src: "/Logo_Keltec-1400x368-green-600.png",
         alt: "Logo",
-        className: "w-[350px] h-[90px]"
+        className: "w-[150px] sm:w-[250px] md:w-[350px] h-auto"
       },
       void 0,
       !1,
       {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("ul", { className: "list-none lg:flex hidden justify-end items-center flex-1", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("ul", { className: "list-none hidden md:flex justify-end items-center flex-1", children: [
       navLinks.map((nav, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
         "li",
         {
           className: `font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length - 1 ? "mr-0" : "mr-10 "} `,
           children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(import_react5.NavLink, { to: `${nav.link}`, children: nav.title }, void 0, !1, {
             fileName: "app/components/Navbar.jsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 13
           }, this)
         },
@@ -1033,40 +1033,40 @@ function Navbar() {
         !1,
         {
           fileName: "app/components/Navbar.jsx",
-          lineNumber: 17,
+          lineNumber: 18,
           columnNumber: 11
         },
         this
       )),
       /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(ContactButton, {}, void 0, !1, {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 26,
+        lineNumber: 27,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/Navbar.jsx",
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "lg:hidden flex flex-1 justify-end items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "flex flex-1 justify-end items-center md:hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
       "img",
       {
         src: toggle ? "/close.svg" : "/menu.svg",
         alt: "menu",
-        className: "w-[28px] h-[28px] object-contain",
+        className: "w-7 h-7 object-contain",
         onClick: () => setToggle((prev) => !prev)
       },
       void 0,
       !1,
       {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 9
       },
       this
     ) }, void 0, !1, {
       fileName: "app/components/Navbar.jsx",
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
@@ -1080,7 +1080,7 @@ function Navbar() {
               className: `font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-gray-500 ${index === navLinks.length - 1 ? "mr-0" : "mb-4 "} `,
               children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(import_react5.NavLink, { to: `${nav.link}`, children: nav.title }, void 0, !1, {
                 fileName: "app/components/Navbar.jsx",
-                lineNumber: 50,
+                lineNumber: 51,
                 columnNumber: 15
               }, this)
             },
@@ -1088,19 +1088,19 @@ function Navbar() {
             !1,
             {
               fileName: "app/components/Navbar.jsx",
-              lineNumber: 44,
+              lineNumber: 45,
               columnNumber: 13
             },
             this
           )),
           /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(ContactButton, {}, void 0, !1, {
             fileName: "app/components/Navbar.jsx",
-            lineNumber: 53,
+            lineNumber: 54,
             columnNumber: 11
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Navbar.jsx",
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 9
         }, this)
       },
@@ -1108,14 +1108,14 @@ function Navbar() {
       !1,
       {
         fileName: "app/components/Navbar.jsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 7
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/components/Navbar.jsx",
-    lineNumber: 9,
+    lineNumber: 10,
     columnNumber: 5
   }, this);
 }
@@ -1286,7 +1286,7 @@ function Layour() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-GBLN4FHM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-ZBQLFX2L.js", imports: ["/build/_shared/chunk-4T526E6I.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-XV44EII2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "f66660a3", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693225595478 }, url: "/build/manifest-F66660A3.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-TMT4LXQS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-3SKDN77T.js", imports: ["/build/_shared/chunk-4T526E6I.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-XV44EII2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8d17c357", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693226119833 }, url: "/build/manifest-8D17C357.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

@@ -79,18 +79,18 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/Navbar.jsx"
   );
-  import.meta.hot.lastModified = "1693216010313.563";
+  import.meta.hot.lastModified = "1693226119302.5183";
 }
 function Navbar() {
   _s();
   const [toggle, setToggle] = (0, import_react.useState)(false);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "w-full flex py-6 justify-between items-center navbar", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/Logo_Keltec-1400x368-green-600.png", alt: "Logo", className: "w-[350px] h-[90px]" }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "w-full flex py-6 justify-between items-center", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/Logo_Keltec-1400x368-green-600.png", alt: "Logo", className: "w-[150px] sm:w-[250px] md:w-[350px] h-auto" }, void 0, false, {
       fileName: "app/components/Navbar.jsx",
       lineNumber: 30,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { className: "list-none lg:flex hidden justify-end items-center flex-1", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { className: "list-none hidden md:flex justify-end items-center flex-1", children: [
       navLinks.map((nav, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { className: `font-poppins font-normal cursor-pointer text-[16px] text-white ${index === navLinks.length - 1 ? "mr-0" : "mr-10 "} `, children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: `${nav.link}`, children: nav.title }, void 0, false, {
         fileName: "app/components/Navbar.jsx",
         lineNumber: 33,
@@ -110,7 +110,7 @@ function Navbar() {
       lineNumber: 31,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "lg:hidden flex flex-1 justify-end items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: !toggle ? "/menu.svg" : "/close.svg", alt: "menu", className: "w-[28px] h-[28px] object-contain", onClick: () => setToggle((prev) => !prev) }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex flex-1 justify-end items-center md:hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: !toggle ? "/menu.svg" : "/close.svg", alt: "menu", className: "w-7 h-7 object-contain", onClick: () => setToggle((prev) => !prev) }, void 0, false, {
       fileName: "app/components/Navbar.jsx",
       lineNumber: 38,
       columnNumber: 9
@@ -320,4 +320,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Layour as default
 };
-//# sourceMappingURL=/build/routes/_MainLayout-ZBQLFX2L.js.map
+//# sourceMappingURL=/build/routes/_MainLayout-3SKDN77T.js.map

@@ -2,17 +2,18 @@ import { useState } from "react";
 import { navLinks } from "../constants";
 import { NavLink } from "@remix-run/react";
 import ContactButton from "./ContactButton";
+
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center">
       <img
         src="/Logo_Keltec-1400x368-green-600.png"
         alt="Logo"
-        className="w-[350px] h-[90px]"
+        className="w-[150px] sm:w-[250px] md:w-[350px] h-auto"
       />
-      <ul className="list-none lg:flex hidden justify-end items-center flex-1">
+      <ul className="list-none hidden md:flex justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -25,11 +26,11 @@ export default function Navbar() {
         ))}
         <ContactButton />
       </ul>
-      <div className="lg:hidden flex flex-1 justify-end items-center">
+      <div className="flex flex-1 justify-end items-center md:hidden">
         <img
           src={!toggle ? "/menu.svg" : "/close.svg"}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+          className="w-7 h-7 object-contain"
           onClick={() => setToggle((prev) => !prev)}
         />
       </div>
