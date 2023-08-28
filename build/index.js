@@ -157,7 +157,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-LOTIJ75S.css";
+var tailwind_default = "/build/_assets/tailwind-HX2KZOGD.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -370,7 +370,7 @@ var features = [
 // app/styles.js
 var styles = {
   boxWidth: "xl:max-w-[3456px] w-full",
-  heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading2: "font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -1306,7 +1306,7 @@ function Layour() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-EQKFOE5Z.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-3WPWNG5S.js", imports: ["/build/_shared/chunk-PBMWK72N.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-HPC3SVJ2.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "fca99692", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693227383771 }, url: "/build/manifest-FCA99692.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-GGBEFMQH.js", imports: ["/build/_shared/chunk-ZWGWGGVF.js", "/build/_shared/chunk-GIAAE3CH.js", "/build/_shared/chunk-BBWYR4BF.js", "/build/_shared/chunk-XU7DNSPJ.js", "/build/_shared/chunk-ZV7NBZZ7.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-BOXFZXVX.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MTDPA4O6.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout": { id: "routes/_MainLayout", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/_MainLayout-OYU6KENM.js", imports: ["/build/_shared/chunk-6TYOCBYK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_MainLayout._index": { id: "routes/_MainLayout._index", parentId: "routes/_MainLayout", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_MainLayout._index-JZWOJJQT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "e0c3ac58", hmr: { runtime: "/build/_shared/chunk-ZV7NBZZ7.js", timestamp: 1693227491977 }, url: "/build/manifest-E0C3AC58.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !0, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

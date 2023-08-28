@@ -7,7 +7,7 @@ import {
   navLinks,
   socialMedia,
   styles_default
-} from "/build/_shared/chunk-PBMWK72N.js";
+} from "/build/_shared/chunk-6TYOCBYK.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
@@ -326,4 +326,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Layour as default
 };
-//# sourceMappingURL=/build/routes/_MainLayout-3WPWNG5S.js.map
+//# sourceMappingURL=/build/routes/_MainLayout-OYU6KENM.js.map

@@ -8,11 +8,11 @@ if (import.meta) {
     //@ts-expect-error
     "app/styles.js"
   );
-  import.meta.hot.lastModified = "1689504326881.3289";
+  import.meta.hot.lastModified = "1693227484080.9492";
 }
 var styles = {
   boxWidth: "xl:max-w-[3456px] w-full",
-  heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading2: "font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -185,4 +185,4 @@ export {
   layout,
   styles_default
 };
-//# sourceMappingURL=/build/_shared/chunk-PBMWK72N.js.map
+//# sourceMappingURL=/build/_shared/chunk-6TYOCBYK.js.map
